@@ -20,4 +20,4 @@ for each in file:
         if type(digits_in_text_forward[-1]) == int:
             sum_first_puzzle += digits_in_text_forward[-1] * 10 + digits_in_text_reverse[-1]
         sum_second_puzzle += digits[digits_in_text_forward[0]] * 10 + digits[digits_in_text_reverse[0]]
-print(sum_first_puzzle, sum_second_puzzle) #54159, 53866
+print(sum_first_puzzle, sum_second_puzzle) #54159 53866
